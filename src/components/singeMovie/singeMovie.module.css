@@ -1,0 +1,62 @@
+.mainImages {
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.singlePageDark,.singlePageLight {
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.singleMovie{
+    display: flex;
+}
+.singlePageDark{
+    background-image: url('../layout/BlackFon.jpg');
+}
+.singlePageLight{
+    background-image: url('../layout/LightFon.jpg');
+}
+.singlePageTitle{
+    padding-top: 50px;
+    font-size: 80px;
+padding-left: 150px;
+
+}
+.singlePageText{
+    display: flex;
+    flex-direction: column;
+}
+.singlePageWithoutTitle{
+    padding-top: 25px;
+    padding-left: 25px;
+font-size: 30px;
+}
+.buttonPage{
+    background: brown;
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    font-weight: bold;
+    margin: 30px;
+}
+.buttonPage:hover{
+    background: #7e7575;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    font-weight: bold;
+}
+

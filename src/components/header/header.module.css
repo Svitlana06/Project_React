@@ -1,0 +1,148 @@
+
+.headerNameBody {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none; /*вилітаюче меню*/
+    border-radius: 15px;
+    color: white;
+    justify-content: space-between;
+    font-size: 35px;
+    height: 20px;
+}
+
+.menu {
+    margin-top: 20px;
+    font-size: 50px;
+    background: none;
+    border: none;
+    color: white;
+    position: static;
+    display: flex;
+
+}
+
+.menu:hover {
+    background: none;
+}
+
+.menuText:hover {
+    color: #f57474;
+    background: none;
+    border: none;
+
+}
+
+.menuText {
+    color: white;
+    text-decoration: none;
+}
+
+
+.headerNameBodyOne {
+    text-decoration: none;
+}
+
+.headerNameBodyOne:hover {
+    color: #f38e8e;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.menuGenres {
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 45px;
+    border: none;
+    background: none;
+    color: white;
+}
+
+.menuGenresOne {
+    font-size: 25px;
+}
+
+.menuGenres:hover, .menuTextUser:hover {
+    color: #f57474;
+}
+
+.headerNameBodyOneGenres {
+    text-decoration: none;
+    color: black;
+}
+
+.nameGenre {
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.buttonName {
+    border: none;
+    background: blue;
+    justify-content: right;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.buttonClose {
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.menuTextGenres {
+    color: white;
+    text-decoration: none;
+}
+
+optgroup {
+    font-size: 40px;
+}
+
+
+.calendar {
+    margin-top: 30px;
+    position: absolute;
+    z-index: 5;
+}
+.formUser {
+    margin-top: 30px;
+    position: absolute;
+    z-index: 5;
+    background: rgba(245, 148, 148, 0.99);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.calendarText {
+    position: relative;
+    z-index: 5;
+    color: white;
+    font-weight: bold;
+}
+.menuTextUser{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+.menuImgUser{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+
+}
+.switchForm{
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.movieMenu {
+    padding-top: 50px;
+    color: black;
+}

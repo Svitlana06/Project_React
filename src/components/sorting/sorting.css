@@ -1,0 +1,11 @@
+
+.menuOpen {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background: #f38e8e;
+    text-align: right;
+}
+.singleMenuOpen{
+}
